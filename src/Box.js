@@ -3,7 +3,9 @@ import React from "react";
 function Box(){
 
     return(
-        <div>box</div>
+        <div>
+            
+        </div>
     );
 
 }

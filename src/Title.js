@@ -4,7 +4,7 @@ import React from "react";
 
 function Title(){
     return(
-        <div className="title ">
+        <div className=" tc title">
             <h1>Reviews</h1>
         </div>
     );
