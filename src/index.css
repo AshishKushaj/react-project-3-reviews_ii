@@ -17,10 +17,10 @@ code {
 
 
 .title{
-  margin-top: 7%;
+  margin-top: 5%;
 }
 .title h1{
-  color: tomato;
+  color:rebeccapurple;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: underline;
 }
@@ -29,12 +29,13 @@ code {
 .box{
   width: 40%;
   margin: 7%;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
   max-width: 50%;
   background-color: aliceblue;
   border-radius: 4%;
   padding: 2%;
   margin-left: 30%;
+  margin-top: 5%;
 
 }
 
@@ -47,10 +48,13 @@ code {
 
 .name{
   text-transform: capitalize;
+  margin-bottom: 10px;
 }
 
 .job{
   text-transform: uppercase;
+  margin-top: 10px;
+  color:blueviolet;
 }
 
 .button{
@@ -69,7 +73,8 @@ code {
 .button.surprise{
   font-size: 100%;
   background-color:aqua;
-  border-radius: 0px;
+    padding: 10px;
+    border-radius: 20px;
   
 }
 

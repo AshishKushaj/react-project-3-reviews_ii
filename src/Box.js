@@ -7,7 +7,7 @@ import { IoIosArrowDropleft,IoIosArrowDropright } from "react-icons/io";
 function Box({name , job ,image , text}){
 
     return(
-        <div className="box tc shadow-4" >
+        <div className="box tc shadow-5" >
             
             <div>
                 <img
@@ -30,7 +30,7 @@ function Box({name , job ,image , text}){
                 <button type="button" className="button right grow"><IoIosArrowDropright/></button>
             </div>
 
-            <button type="button" className="button surprise grow">Surprise Me!!</button>
+            <button type="button" className="button surprise bg-light-blue grow">Surprise Me!!</button>
 
         </div>
     );
