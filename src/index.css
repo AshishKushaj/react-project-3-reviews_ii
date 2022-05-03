@@ -17,7 +17,7 @@ code {
 
 
 .title{
-  margin-top: 10%;
+  margin-top: 7%;
 }
 .title h1{
   color: tomato;
@@ -29,6 +29,7 @@ code {
 .box{
   width: 40%;
   margin: 7%;
+  margin-bottom: 0px;
   max-width: 50%;
   background-color: aliceblue;
   border-radius: 4%;
@@ -51,3 +52,28 @@ code {
 .job{
   text-transform: uppercase;
 }
+
+.button{
+  background-color: transparent;
+  border: 0;
+  border-radius: 50%;
+  font-size: 250%;
+  margin-top: 20px;
+}
+.button.right{
+  margin-left: 8%;
+}
+.button.left{
+  margin-right:8%;
+}
+.button.surprise{
+  font-size: 100%;
+  background-color:aqua;
+  border-radius: 0px;
+  
+}
+
+.button:hover{
+  background-color: aquamarine;
+}
+

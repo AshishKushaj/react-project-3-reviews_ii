@@ -1,5 +1,5 @@
 import React from "react";
-import { IconName } from "react-icons/io";
+import { IoIosArrowDropleft,IoIosArrowDropright } from "react-icons/io";
 
 
 
@@ -7,7 +7,7 @@ import { IconName } from "react-icons/io";
 function Box({name , job ,image , text}){
 
     return(
-        <div className="box tc" >
+        <div className="box tc shadow-4" >
             
             <div>
                 <img
@@ -25,7 +25,12 @@ function Box({name , job ,image , text}){
             
             <div><p>{text}</p></div>
 
-            <button type="button">Click Me!</button>
+            <div>
+                <button type="button" className="button left grow"><IoIosArrowDropleft/></button>
+                <button type="button" className="button right grow"><IoIosArrowDropright/></button>
+            </div>
+
+            <button type="button" className="button surprise grow">Surprise Me!!</button>
 
         </div>
     );
