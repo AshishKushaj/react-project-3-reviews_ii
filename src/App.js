@@ -2,8 +2,7 @@ import React,{ useState, useEffect } from 'react';
 import './App.css';
 import Title from './Title';
 import Box from './Box';
-import './data'; 
-import React from 'react';
+import data from './data'; 
 
 
 
@@ -20,7 +19,10 @@ function App() {
       </div>
 
      <Box
-     
+        name={name}
+        job ={job}
+        image={image}
+        text={text}
      />
 
 

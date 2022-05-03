@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: antiquewhite;
+  background-color:gainsboro;
 }
 
 code {
@@ -17,9 +17,37 @@ code {
 
 
 .title{
-  margin-top: 12%;
+  margin-top: 10%;
 }
 .title h1{
   color: tomato;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+}
+
+
+.box{
+  width: 40%;
+  margin: 7%;
+  max-width: 50%;
+  background-color: aliceblue;
+  border-radius: 4%;
+  padding: 2%;
+  margin-left: 30%;
+
+}
+
+.image{
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.name{
+  text-transform: capitalize;
+}
+
+.job{
+  text-transform: uppercase;
 }
