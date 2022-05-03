@@ -19,7 +19,11 @@ function App() {
         <Title/>
       </div>
 
-     <Box/>
+     <Box
+     
+     />
+
+
    </div>
   );
 }
